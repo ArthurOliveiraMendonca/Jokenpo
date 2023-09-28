@@ -1,0 +1,60 @@
+.home {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home img {
+    height: 500px;
+}
+
+.home p {
+    font-size: 3rem; /* 48px */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.home span {
+    color: var(--green);
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn_red {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.btn_red:hover {
+    background-color: var(--primary);
+}
+
+.projetos h2 {
+    text-align: center;
+}
+
+.lista {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1rem;
+}
+
